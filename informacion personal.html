@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu-principal">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="introduccion.html">introduccion</a></li>
+                <li><a href="primeros años.html">Primeros Años</a></li>
+                <li><a href="expedicion a egipto.html">Expedición A Egipto</a></li>
+                <li><a href="consul y mas.html">Consul y mas</a></li>
+                <li><a href="informacion personal.html">informacion Personal</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+         <img src="img/logo.png" alt="80px" width="80px">
+        </div>
+    </header>
+    <main>
+        <section class="menu-Bonaparte"></section>
+           <center><strong><h2>Biografia</h2></strong></center>
+           <br>
+    <table>
+        <tr>
+            <th>Atributo</th>
+            <th>Detalles</th>
+        </tr>
+        <tr>
+            <td>Nombre completo:</td>
+            <td>Napoleon Bonaparte</td>
+        </tr>
+        <tr>
+            <td>Fecha de nacimiento:</td>
+            <td>15 de agosto de 1769</td>
+        </tr>
+        <tr>
+            <td>Lugar de nacimiento:</td>
+            <td>Ajaccio, Córcega (Francia)</td>
+        </tr>
+        <tr>
+            <td>Fallecimiento:</td>
+            <td>5 de mayo de 1821</td>
+        </tr>
+        <tr>
+            <td>Lugar de fallecimiento:</td>
+            <td>Isla de Santa Elena, Atlántico Sur</td>
+        </tr>
+        <tr>
+            <td>Ocupación:</td>
+            <td>General militar y emperador de Francia</td>
+        </tr>
+        <tr>
+            <td>Logros principales:</td>
+            <td>Conquista de gran parte de Europa, establecimiento del Código Napoleónico, reformas en educación y administración pública</td>
+        </tr>
+        <tr>
+            <td>Guerras destacadas:</td>
+            <td>Guerras Napoleónicas (1803–1815)</td>
+        </tr>
+        <tr>
+            <td>Última derrota:</td>
+            <td>Batalla de Waterloo (1815)</td>
+        </tr>
+        <tr>
+            <td>Exilio final:</td>
+            <td>Isla de Santa Elena</td>
+        </tr>
+    </table> 
+
+    <center><div class="formulario-container">
+        <h1>Información sobre Napoleón Bonaparte</h1>
+        <form id="napoleonForm">
+            <div class="form-group">
+                <label for="nombre_completo">Nombre Completo:</label>
+                <input type="text" id="nombre_completo" name="nombre_completo" placeholder="Napoleone di Buonaparte" required>
+            </div>
+
+            <div class="form-group">
+                <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lugar_nacimiento">Lugar de Nacimiento:</label>
+                <input type="text" id="lugar_nacimiento" name="lugar_nacimiento" placeholder="Ajaccio, Córcega" required>
+            </div>
+
+            <div class="form-group">
+                <label for="carrera_militar">Inicio de su Carrera Militar:</label>
+                <input type="text" id="carrera_militar" name="carrera_militar" placeholder="Ejército Real Francés" required>
+            </div>
+
+            <div class="form-group">
+                <label for="ascensos_importantes">Ascensos Importantes (separados por coma):</label>
+                <input type="text" id="ascensos_importantes" name="ascensos_importantes" placeholder="General de Brigada, General de División, Primer Cónsul, Emperador de los Franceses">
+            </div>
+
+            <div class="form-group">
+                <label for="batallas_clave">Batallas Clave (separadas por coma):</label>
+                <input type="text" id="batallas_clave" name="batallas_clave" placeholder="Austerlitz, Jena-Auerstedt, Waterloo">
+            </div>
+
+            <div class="form-group">
+                <label for="periodo_imperio">Periodo de su Imperio:</label>
+                <input type="text" id="periodo_imperio" name="periodo_imperio" placeholder="1804-1814, 1815">
+            </div>
+
+            <div class="form-group">
+                <label for="exilio_primero">Primer Exilio:</label>
+                <input type="text" id="exilio_primero" name="exilio_primero" placeholder="Isla de Elba">
+            </div>
+
+            <div class="form-group">
+                <label for="cien_dias">Los Cien Días:</label>
+                <textarea id="cien_dias" name="cien_dias" placeholder="Breve descripción de su regreso y gobierno." rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="exilio_final">Exilio Final y Muerte:</label>
+                <input type="text" id="exilio_final" name="exilio_final" placeholder="Santa Elena, Reino Unido">
+            </div>
+
+            <div class="form-group">
+                <label for="fecha_muerte">Fecha de Muerte:</label>
+                <input type="date" id="fecha_muerte" name="fecha_muerte">
+            </div>
+
+            <button type="submit" class="submit-button">Enviar Información</button>
+        </form></center>
+    </div>
+    
+    <footer>
+        <p>&copy; Dasiel Murillo  oscard.murrilo@tecnico-honduras.com</p>
+    </footer>
+</body>
+</html>

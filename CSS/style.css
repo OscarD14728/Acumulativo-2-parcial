@@ -1,0 +1,837 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1a1918;
+}
+
+header {
+    background-color: #b81919;
+    color: rgb(209, 219, 60);
+    padding: 1em 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espacio entre menú y logo */
+}
+
+nav {
+    float: left; /* Asegura que el menú esté a la izquierda */
+}
+
+.logo img {
+    height: 80px; /* Ajusta la altura del logo según necesites */
+}
+
+.menu-principal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-principal li {
+    margin-right: 20px; /* Espacio entre los elementos del menú */
+}
+
+.menu-principal li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el hover */
+}
+
+.menu-principal li a:hover {
+    background-color: #007bff; /* Cambia el color de fondo al pasar el cursor */
+    /* Otra opción para el hover con sombra: */
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
+}
+
+.menu-principal li a.active {
+    font-weight: bold; /* Resalta la página activa */
+}
+
+main {
+    padding: 20px;
+    background-color:  #27ae60;
+}
+
+.contenido-principal, .contenido-pagina {
+    margin-bottom: 20px;
+}
+
+.texto-justificado {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.imagen-principal {
+    width: 200px; /* Define un tamaño base para las imágenes */
+    height: 200px; /* Asegura que tengan el mismo tamaño */
+    object-fit: cover; /* Recorta la imagen para que se ajuste al tamaño sin deformarse */
+    display: inline-block; /* Permite que las imágenes estén en la misma línea */
+    margin: 10px;
+    vertical-align: middle; /* Alinea verticalmente las imágenes con el texto si es necesario */
+}
+
+.imagenes-pagina {
+    display: flex;
+    justify-content: space-around; /* Distribuye las imágenes horizontalmente */
+    align-items: center; /* Alinea las imágenes verticalmente */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagen-pagina {
+    width: 150px; /* Ajusta el tamaño para las páginas secundarias */
+    height: 150px;
+    object-fit: cover;
+}
+
+.datos-generales {
+    background-color: #11d875;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.datos-generales h2 {
+    margin-top: 0;
+}
+
+.datos-generales ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(155, 243, 40);
+    text-align: center;
+}
+
+
+/* A continuacion vamos a ver la introduccion */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1a1918;
+}
+
+header {
+    background-color: #b81919;
+    color: rgb(209, 219, 60);
+    padding: 1em 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espacio entre menú y logo */
+}
+
+nav {
+    float: left; /* Asegura que el menú esté a la izquierda */
+}
+
+.logo img {
+    height: 80px; /* Ajusta la altura del logo según necesites */
+}
+
+.menu-principal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-principal li {
+    margin-right: 20px; /* Espacio entre los elementos del menú */
+}
+
+.menu-principal li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el hover */
+}
+
+.menu-principal li a:hover {
+    background-color: #007bff; /* Cambia el color de fondo al pasar el cursor */
+    /* Otra opción para el hover con sombra: */
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
+}
+
+.menu-principal li a.active {
+    font-weight: bold; /* Resalta la página activa */
+}
+
+main {
+    padding: 20px;
+    background-color: #27ae60;
+}
+
+.contenido-principal, .contenido-pagina {
+    margin-bottom: 20px;
+}
+
+.texto-justificado {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.imagen-principal {
+    width: 200px; /* Define un tamaño base para las imágenes */
+    height: 200px; /* Asegura que tengan el mismo tamaño */
+    object-fit: cover; /* Recorta la imagen para que se ajuste al tamaño sin deformarse */
+    display: inline-block; /* Permite que las imágenes estén en la misma línea */
+    margin: 10px;
+    vertical-align: middle; /* Alinea verticalmente las imágenes con el texto si es necesario */
+}
+
+.imagenes-pagina {
+    display: flex;
+    justify-content: space-around; /* Distribuye las imágenes horizontalmente */
+    align-items: center; /* Alinea las imágenes verticalmente */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagen-pagina {
+    width: 150px; /* Ajusta el tamaño para las páginas secundarias */
+    height: 150px;
+    object-fit: cover;
+}
+
+.datos-generales {
+    background-color: #11d875;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.datos-generales h2 {
+    margin-top: 0;
+}
+
+.datos-generales ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(155, 243, 40);
+    text-align: center;
+}
+
+/* A continuacion vamos a ver los primeros años */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1a1918;
+}
+
+header {
+    background-color: #b81919;
+    color: rgb(209, 219, 60);
+    padding: 1em 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espacio entre menú y logo */
+}
+
+nav {
+    float: left; /* Asegura que el menú esté a la izquierda */
+}
+
+.logo img {
+    height: 80px; /* Ajusta la altura del logo según necesites */
+}
+
+.menu-principal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-principal li {
+    margin-right: 20px; /* Espacio entre los elementos del menú */
+}
+
+.menu-principal li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el hover */
+}
+
+.menu-principal li a:hover {
+    background-color: #007bff; /* Cambia el color de fondo al pasar el cursor */
+    /* Otra opción para el hover con sombra: */
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
+}
+
+.menu-principal li a.active {
+    font-weight: bold; /* Resalta la página activa */
+}
+
+main {
+    padding: 20px;
+    background-color: #27ae60;
+}
+
+.contenido-principal, .contenido-pagina {
+    margin-bottom: 20px;
+}
+
+.texto-justificado {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.imagen-principal {
+    width: 200px; /* Define un tamaño base para las imágenes */
+    height: 200px; /* Asegura que tengan el mismo tamaño */
+    object-fit: cover; /* Recorta la imagen para que se ajuste al tamaño sin deformarse */
+    display: inline-block; /* Permite que las imágenes estén en la misma línea */
+    margin: 10px;
+    vertical-align: middle; /* Alinea verticalmente las imágenes con el texto si es necesario */
+}
+
+.imagenes-pagina {
+    display: flex;
+    justify-content: space-around; /* Distribuye las imágenes horizontalmente */
+    align-items: center; /* Alinea las imágenes verticalmente */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagen-pagina {
+    width: 150px; /* Ajusta el tamaño para las páginas secundarias */
+    height: 150px;
+    object-fit: cover;
+}
+
+.datos-generales {
+    background-color: #11d875;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.datos-generales h2 {
+    margin-top: 0;
+}
+
+.datos-generales ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(155, 243, 40);
+    text-align: center;
+}
+
+/* A continuacion vamos a ver la Expedicion A Egipto */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1a1918;
+}
+
+header {
+    background-color: #b81919;
+    color: rgb(209, 219, 60);
+    padding: 1em 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espacio entre menú y logo */
+}
+
+nav {
+    float: left; /* Asegura que el menú esté a la izquierda */
+}
+
+.logo img {
+    height: 80px; /* Ajusta la altura del logo según necesites */
+}
+
+.menu-principal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-principal li {
+    margin-right: 20px; /* Espacio entre los elementos del menú */
+}
+
+.menu-principal li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el hover */
+}
+
+.menu-principal li a:hover {
+    background-color: #007bff; /* Cambia el color de fondo al pasar el cursor */
+    /* Otra opción para el hover con sombra: */
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
+}
+
+.menu-principal li a.active {
+    font-weight: bold; /* Resalta la página activa */
+}
+
+main {
+    padding: 20px;
+    background-color: #27ae60;
+}
+
+.contenido-principal, .contenido-pagina {
+    margin-bottom: 20px;
+}
+
+.texto-justificado {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.imagen-principal {
+    width: 200px; /* Define un tamaño base para las imágenes */
+    height: 200px; /* Asegura que tengan el mismo tamaño */
+    object-fit: cover; /* Recorta la imagen para que se ajuste al tamaño sin deformarse */
+    display: inline-block; /* Permite que las imágenes estén en la misma línea */
+    margin: 10px;
+    vertical-align: middle; /* Alinea verticalmente las imágenes con el texto si es necesario */
+}
+
+.imagenes-pagina {
+    display: flex;
+    justify-content: space-around; /* Distribuye las imágenes horizontalmente */
+    align-items: center; /* Alinea las imágenes verticalmente */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagen-pagina {
+    width: 150px; /* Ajusta el tamaño para las páginas secundarias */
+    height: 150px;
+    object-fit: cover;
+}
+
+.datos-generales {
+    background-color: #11d875;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.datos-generales h2 {
+    margin-top: 0;
+}
+
+.datos-generales ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(155, 243, 40);
+    text-align: center;
+}
+/* A continuacion vamos a ver el Consulado */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1a1918;
+}
+
+header {
+    background-color: #b81919;
+    color: rgb(209, 219, 60);
+    padding: 1em 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espacio entre menú y logo */
+}
+
+nav {
+    float: left; /* Asegura que el menú esté a la izquierda */
+}
+
+.logo img {
+    height: 80px; /* Ajusta la altura del logo según necesites */
+}
+
+.menu-principal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-principal li {
+    margin-right: 20px; /* Espacio entre los elementos del menú */
+}
+
+.menu-principal li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el hover */
+}
+
+.menu-principal li a:hover {
+    background-color: #007bff; /* Cambia el color de fondo al pasar el cursor */
+    /* Otra opción para el hover con sombra: */
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
+}
+
+.menu-principal li a.active {
+    font-weight: bold; /* Resalta la página activa */
+}
+
+main {
+    padding: 20px;
+    background-color: #27ae60;
+}
+
+.contenido-principal, .contenido-pagina {
+    margin-bottom: 20px;
+}
+
+.texto-justificado {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.imagen-principal {
+    width: 200px; /* Define un tamaño base para las imágenes */
+    height: 200px; /* Asegura que tengan el mismo tamaño */
+    object-fit: cover; /* Recorta la imagen para que se ajuste al tamaño sin deformarse */
+    display: inline-block; /* Permite que las imágenes estén en la misma línea */
+    margin: 10px;
+    vertical-align: middle; /* Alinea verticalmente las imágenes con el texto si es necesario */
+}
+
+.imagenes-pagina {
+    display: flex;
+    justify-content: space-around; /* Distribuye las imágenes horizontalmente */
+    align-items: center; /* Alinea las imágenes verticalmente */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagen-pagina {
+    width: 150px; /* Ajusta el tamaño para las páginas secundarias */
+    height: 150px;
+    object-fit: cover;
+}
+
+.datos-generales {
+    background-color: #11d875;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.datos-generales h2 {
+    margin-top: 0;
+}
+
+.datos-generales ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+h2 {
+background-color: rgb(212, 78, 16);
+}
+ h1 {
+    background-color: cornflowerblue;
+ }
+ h3 {
+    background-color: darkgray;
+ }
+ 
+footer {
+    background-color: #333;
+    color: rgb(155, 243, 40);
+    text-align: center;
+}
+/* A continuacion vamos a ver la Informacion Personal */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1a1918;
+}
+
+header {
+    background-color: #b81919;
+    color: rgb(209, 219, 60);
+    padding: 1em 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espacio entre menú y logo */
+}
+
+nav {
+    float: left; /* Asegura que el menú esté a la izquierda */
+}
+
+.logo img {
+    height: 80px; /* Ajusta la altura del logo según necesites */
+}
+
+.menu-principal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-principal li {
+    margin-right: 20px; /* Espacio entre los elementos del menú */
+}
+
+.menu-principal li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el hover */
+}
+
+.menu-principal li a:hover {
+    background-color: #007bff; /* Cambia el color de fondo al pasar el cursor */
+    /* Otra opción para el hover con sombra: */
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
+}
+
+.menu-principal li a.active {
+    font-weight: bold; /* Resalta la página activa */
+}
+
+main {
+    padding: 20px;
+    background-color: #27ae60;
+}
+
+.contenido-principal, .contenido-pagina {
+    margin-bottom: 20px;
+}
+
+.texto-justificado {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.imagen-principal {
+    width: 200px; /* Define un tamaño base para las imágenes */
+    height: 200px; /* Asegura que tengan el mismo tamaño */
+    object-fit: cover; /* Recorta la imagen para que se ajuste al tamaño sin deformarse */
+    display: inline-block; /* Permite que las imágenes estén en la misma línea */
+    margin: 10px;
+    vertical-align: middle; /* Alinea verticalmente las imágenes con el texto si es necesario */
+}
+
+.imagenes-pagina {
+    display: flex;
+    justify-content: space-around; /* Distribuye las imágenes horizontalmente */
+    align-items: center; /* Alinea las imágenes verticalmente */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagen-pagina {
+    width: 150px; /* Ajusta el tamaño para las páginas secundarias */
+    height: 150px;
+    object-fit: cover;
+}
+
+.datos-generales {
+    background-color: #11d875;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.datos-generales h2 {
+    margin-top: 0;
+}
+
+.datos-generales ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+h2 {
+background-color: rgb(212, 78, 16);
+}
+h1 {
+    background-color: cornflowerblue;
+}
+h3 {
+    background-color: darkgray;
+}
+ 
+footer {
+    background-color: #333;
+    color: rgb(155, 243, 40);
+    text-align: center;
+}
+
+
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin: 20px 0;
+   background-color: #abb4c5;
+   
+}
+
+th, td {
+   padding: 12px;
+   text-align: left;
+   border-bottom: 1px solid #b8cde6;
+}
+
+th {
+ background-color: #30916b;
+  color: rgb(46, 42, 42);
+}
+
+caption {
+ font-size: 1.5em;
+  margin: 10px;
+}
+
+.formulario-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 700px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos adicionales para un toque más moderno */
+body {
+    background: linear-gradient(135deg, #e0f7fa, #c5cae9);
+}
+
+.formulario-container {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+label {
+    color: #34495e;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+}
+
+.submit-button {
+    background-color: #2ecc71;
+}
+
+.submit-button:hover {
+    background-color: #27ae60;
+}
+
